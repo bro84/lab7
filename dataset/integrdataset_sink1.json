@@ -1,0 +1,16 @@
+{
+	"name": "integrdataset_sink1",
+	"properties": {
+		"annotations": [],
+		"type": "SqlPoolTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "customers"
+		},
+		"sqlPool": {
+			"referenceName": "sqlpoolbronac",
+			"type": "SqlPoolReference"
+		}
+	}
+}
